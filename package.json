@@ -18,6 +18,10 @@
  },
  "devDependencies": {},
  "scripts": {
-     "build": "rm -rf lib/* && tsc"
+     "build": "rm -rf lib/* && tsc",
+     "publish": "yarn build && npm version && npm publish"
+ },
+ "publishConfig": {
+     "registry": "https://npm.pkg.github.com/"
  }
 }
