@@ -1,6 +1,6 @@
 {
  "name": "@hippo-health/types",
- "version": "0.0.3",
+ "version": "0.0.4",
  "description": "Typescript types for hippo applications",
  "homepage": "https://github.com/hippo-health/types#readme",
  "license": "MIT",
