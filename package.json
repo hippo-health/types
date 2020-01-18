@@ -1,6 +1,6 @@
 {
  "name": "@hippo-health/types",
- "version": "0.0.1",
+ "version": "0.0.2",
  "description": "Typescript types for hippo applications",
  "homepage": "https://github.com/hippo-health/types#readme",
  "license": "MIT",
@@ -18,10 +18,10 @@
  },
  "devDependencies": {},
  "scripts": {
-     "build": "rm -rf lib/* && tsc",
-     "publish": "yarn build && npm version && npm publish"
+  "build": "rm -rf lib/* && tsc",
+  "publish": "yarn build && npm version && npm publish"
  },
  "publishConfig": {
-     "registry": "https://npm.pkg.github.com/"
+  "registry": "https://npm.pkg.github.com/"
  }
 }
